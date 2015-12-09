@@ -7,6 +7,12 @@
 
 > zkclient源码地址 [https://github.com/sgroschupf/zkclient/tree/0.7.0]
 
+### 打包部署
+
+```
+mvn clean deploy -Dmaven.test.skip=true
+```
+
 ### 注意事项
 
 **支持zookeeper版本为3.4.6**
